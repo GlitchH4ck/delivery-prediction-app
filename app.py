@@ -6,8 +6,8 @@ import pandas as pd
 import streamlit as st
 
 
-MODEL_PATH = os.path.join("output", "models", "best_model.joblib")
-FEATURE_INFO_PATH = os.path.join("output", "models", "feature_info.json")
+MODEL_PATH = "best_model.joblib"
+FEATURE_INFO_PATH = "feature_info.json"
 
 
 FEATURE_TRANSLATIONS = {
