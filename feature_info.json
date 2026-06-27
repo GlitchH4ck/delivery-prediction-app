@@ -1,0 +1,53 @@
+{
+    "task_type": "classification",
+    "target_column": "Reached_on_Time_Y_N",
+    "numeric_features": [
+        "Customer_care_calls",
+        "Customer_rating",
+        "Cost_of_the_Product",
+        "Prior_purchases",
+        "Discount_offered",
+        "Weight_in_gms"
+    ],
+    "categorical_features": [
+        "Warehouse_block",
+        "Mode_of_Shipment",
+        "Product_importance",
+        "Gender"
+    ],
+    "class_labels": [
+        0,
+        1
+    ],
+    "categorical_values": {
+        "Warehouse_block": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "F"
+        ],
+        "Mode_of_Shipment": [
+            "Flight",
+            "Road",
+            "Ship"
+        ],
+        "Product_importance": [
+            "high",
+            "low",
+            "medium"
+        ],
+        "Gender": [
+            "F",
+            "M"
+        ]
+    },
+    "numeric_defaults": {
+        "Customer_care_calls": 4.0,
+        "Customer_rating": 3.0,
+        "Cost_of_the_Product": 214.0,
+        "Prior_purchases": 3.0,
+        "Discount_offered": 7.0,
+        "Weight_in_gms": 4149.0
+    }
+}
